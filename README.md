@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# House Selling & Rental web app using Nextjs 
 
-## Getting Started
+#### `Home Page `
 
-First, run the development server:
+<p align="center">
+    <img alt="home" src="https://res.cloudinary.com/for-learning-and-training/image/upload/v1657651387/Screen%20Website/screencapture-localhost-3000-2022-07-12-17_24_05_zrq1z0.png">
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### `Rent & Sale Page`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+    <img alt="details" src="https://res.cloudinary.com/for-learning-and-training/image/upload/v1657651388/Screen%20Website/screencapture-localhost-3000-search-2022-07-12-20_18_03_bmigxi.png">
+</p>
+#### `Details Page`
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<p align="center">
+    <img alt="details" src="https://res.cloudinary.com/for-learning-and-training/image/upload/v1657651374/Screen%20Website/screencapture-localhost-3000-property-5708128-2022-07-12-20_30_13_ntv1kv.png">
+</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## `Introduction`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ incredible House Selling & Rental website using nextjs and api.\
+ advanced filtering.\
+ presents an idea how to deal with `/chakra-ui/`and API .\
+ responsive for mobile app.
 
-## Learn More
+## `Frontend`
 
-To learn more about Next.js, take a look at the following resources:
+| Project                 |  Description                                             |
+| ----------------------- |  ------------------------------------------------------- |
+| `next`                  |  react framework for production                          |
+| `@chakra-ui`            |  UI library                                              |
+| `react-icons`           |  for icons                                               |
+| `axios`                 |  for deal with requests from backend                     |
+| `nprogress`             |  for get nice loading  page                              |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## `Useage`
 
-## Deploy on Vercel
+### frontend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `npm run dev`
+   - Runs the app in the development mode.
+- `npm run build`
+   - Builds the app for production to the build folder.
